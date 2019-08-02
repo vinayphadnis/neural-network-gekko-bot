@@ -1,15 +1,28 @@
-# Gekko [![npm](https://img.shields.io/npm/dm/gekko.svg)]() [![Build Status](https://travis-ci.org/askmike/gekko.png)](https://travis-ci.org/askmike/gekko) [![Build status](https://ci.appveyor.com/api/projects/status/github/askmike/gekko?branch=stable&svg=true)](https://ci.appveyor.com/project/askmike/gekko)
+# Neural Network Trading Bot using Gekko 
 
-![Gordon Gekko](http://mikevanrossum.nl/static/gekko.jpg)
+This is a Neural Network trading bot built in my [Udemy course](https://www.udemy.com/neural-network-trading-bot). 
 
-*The most valuable commodity I know of is information.*
+## Quick Installation  
+Clone the repository<br>
+```sh git clone https://github.com/vinayphadnis/neural-network-gekko-bot ```
+```sh cd neural-network-trading-bot```
+<br><br>
 
--Gordon Gekko
+Installing the Gekko dependencies<br>
+```sh npm install --only=production```
+<br><br>
+In order to interact with the various exchanges, it is important to install the *Broker* dependencies<br>
+```sh cd exchange```
+```sh npm install --only=production```
+```sh cd ..```<br><br>
 
-Gekko is a Bitcoin TA trading and backtesting platform that connects to popular Bitcoin exchanges. It is written in JavaScript and runs on [Node.js](http://nodejs.org).
-
-*Use Gekko at your own risk.*
-
+## Usage
+In order to use the NeuralNet strategy, you need to:
+ - Import a training database
+ - Click on Backtest
+ - Select the Dataset
+ - In strategy, select NeuralNet
+ - Click on Backtest
 ## Documentation
 
 See [the documentation website](https://gekko.wizb.it/docs/introduction/about_gekko.html).
@@ -17,11 +30,3 @@ See [the documentation website](https://gekko.wizb.it/docs/introduction/about_ge
 ## Installation & Usage
 
 See [the installing Gekko doc](https://gekko.wizb.it/docs/installation/installing_gekko.html).
-
-## Community & Support
-
-Gekko has [a forum](https://forum.gekko.wizb.it/) that is the place for discussions on using Gekko, automated trading and exchanges. In case you rather want to chat in realtime about Gekko feel free to join the [Gekko Support Discord](https://discord.gg/26wMygt).
-
-## Final
-
-If Gekko helped you in any way, you can always leave me a tip at (BTC) 13r1jyivitShUiv9FJvjLH7Nh1ZZptumwW
